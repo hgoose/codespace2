@@ -27,6 +27,7 @@ auto main(int argc, char** argv) -> int {
 
     }
 
+    cout << "add some shit" << endl;
 
 for (const auto& item : io) cout << item << " ";    }
  
