@@ -21,14 +21,14 @@ auto main(int argc, char** argv) -> int {
 
     std::print(sizeof(io));
 
-
     for (int i=0; i<5; ++i);
     for (const auto& i : std::ranges::views::iota(0,5));
+    for (const auto& i : )
 
-
+    
     for (int i = 2; i < 19; ++i) {
         log[i] = log[i/2] + 1;
-    }
+   }
 
     cout << "add some shit" << endl;
 
