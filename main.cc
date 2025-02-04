@@ -5,6 +5,9 @@ using std::vector;
 using std::cout;
 using std::endl;
 
+const int MAX_LOG;
+int log[MAX_LOG];
+
 auto main(int argc, char** argv) -> int {
 
     void* memory = operator new(sizeof(point));
@@ -22,10 +25,12 @@ auto main(int argc, char** argv) -> int {
     for (int i=0; i<5; ++i);
     for (const auto& i : std::ranges::views::iota(0,5));
 
-    int n = 10;
-    for (int i = 0; i < n; ++i) {
 
+    for (int i = 2; i < 19; ++i) {
+        log[i] = log[i/2] + 1;
     }
+
+
 
 
 for (const auto& item : io) cout << item << " ";    }
