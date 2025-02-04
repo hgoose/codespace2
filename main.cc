@@ -22,6 +22,10 @@ auto main(int argc, char** argv) -> int {
     for (int i=0; i<5; ++i);
     for (const auto& i : std::ranges::views::iota(0,5));
 
+    int n = 10;
+    for (int i = 0; i < n; ++i) {
+
+    }
 
 
 for (const auto& item : io) cout << item << " ";    }
