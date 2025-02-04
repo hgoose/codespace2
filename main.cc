@@ -30,6 +30,7 @@ auto main(int argc, char** argv) -> int {
         log[i] = log[i/2] + 1;
     }
 
+    cout << "add some shit" << endl;
 
 
 
