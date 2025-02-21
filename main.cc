@@ -1,11 +1,12 @@
 #include <iostream>
 #include <ranges>
 #include <vector>
+
 using std::vector;
 using std::cout;
 using std::endl;
 
-const int MAX_LOG;
+const int MAX_LOG = 20;
 int log[MAX_LOG];
 
 auto main(int argc, char** argv) -> int {
@@ -19,7 +20,6 @@ auto main(int argc, char** argv) -> int {
     
     auto io = std::ranges::views::iota(0,5)
 
-    std::print(sizeof(io));
 
 
     for (int i=0; i<5; ++i);
@@ -32,6 +32,7 @@ auto main(int argc, char** argv) -> int {
 
     cout << "add some shit" << endl;
 
+cannot open source file "ranges". Please run the 'Select IntelliSense Configuration...' command to locate your system headers.    
 
 
 for (const auto& item : io) cout << item << " ";    }
